@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Assets/style.css">
+
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <a id="link" href="HighScores.html">View Highscores</a>
+
+    <div id="mainBox">
+        <div id="clock"></div>
+        <div id="questionsBox">
+            <h1>Coding Quiz</h1>
+            <p>Test your skills with this exercise.<br>Try to answer the following code-related questions within the time limit. Incorrect
+                answers
+                will be penalized in your score/time by ten seconds. <br>Good luck!</p>
+            <ul id="answersUl"></ul>
+            <button id="startClock">Start Quiz</button>
+        </div>
+    </div>
+
+    <div id="endGame">
+        <h1>Your time is up</h1>
+        <p id="endScore"></p>
+        <div id="enterInitials">
+        <label for="label">Enter initials to save your score:</label>
+        <input type="text" id="initials">
+        </div>
+        <button id="save">Save Initials</button>
+    </div>
+
+    <script src="/Assets/questions.js"></script>
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,150 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#mainBox {
+    position: relative;
+    margin: 10% 50% 10% 35%;
+    width: 600px;
+    flex: auto;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10% 20% 5% 20%;
+    font-size: 25px;
+}
+
+#startClock {
+    background-color: rgb(64 65 182);
+    margin: 5% 0 0 29%;
+    padding: 20px 60px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+#questionsBox {
+    margin: 0 5% 0 5%;
+}
+
+#linkHighscores {
+    position: relative;
+    width: auto;
+    margin: 10% 0 0 70%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    }
+
+#clock {
+    float: right;
+    font-weight: bold;
+}
+
+#goBack {
+    background-color: rgb(64 65 182);
+    position: relative;
+    padding: 18px;
+    font-size: 18px;
+    color: white;
+    margin: 5% 0 0 42%;
+    cursor: pointer;
+}
+
+#clear {
+    background-color: rgb(64 65 182);
+    position: relative;
+    padding: 18px;
+    font-size: 18px;
+    color: white;
+    margin: 0 0 0 5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 8px;
+}
+
+#Submit {
+    background-color: rgb(64 65 182);
+    margin: 0 12% 10% 22%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin: 5% 0 5% 0;
+    width: 30%;
+    border: 1px solid #191818
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+li {
+    background-color: rgb(64 65 182);
+    margin-top: 16px;
+    padding: 5px 18px;
+    width: 91%;
+    font-size: 16px;
+    color: white;
+}
+
+li:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    transform: scale(1.02);
+}
+
+#endGame {
+    display: none;
+}
+
+#endScore {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 black;
+}
+
+#save {
+    background-color: rgb(64 65 182);
+    margin: 0% 0 0 45%;
+    padding: 20px 60px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+#enterInitials {
+    position: relative;
+    margin-left: 31%;
+    font-size: 25px;
+}
+
+#highScore {
+    background-color: rgb(64 65 182);
+    margin-top: -1%;
+    padding: 2px 18px 13px 0px;
+    width: 30%;
+    font-size: 16px;
+    color: white;
+    margin-left: 36%;
+}
