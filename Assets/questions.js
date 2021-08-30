@@ -60,7 +60,7 @@ StartClock.addEventListener("click", function () {
 // creating new ul to show the question choices
 var ulShowchoices = document.createElement("ul");
 // setting var timeLeft and starting point of 80
-var timeLeft = 80;
+var timeLeft = 100;
 // setting var penalty, which is the penalty to be used for every wrong answer.
 var penalty = 10;
 var holdInterval = 0;
