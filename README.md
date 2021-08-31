@@ -14,3 +14,6 @@ To use, open link in browser. To play, click the Start Quiz button. That will st
 ![pic 4](https://user-images.githubusercontent.com/83382332/131288063-1ac6a625-3b4c-4303-a6f4-a1eac2dd9b7d.JPG)
 
 TO CONTRIBUTE Projects sits in the following github repository: https://github.com/josemartin357/Code_Quiz
+
+# CREDIT
+Juan Delgado - Central Tutor Support
